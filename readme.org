@@ -1,10 +1,10 @@
 * Short
-This is the story of the little blue boat. The boat has 
-1 Motor
-1 Servo
-Controlled over bluethooth by dabble
+This is the story of the little blue boat. The boat has 1 Motor1 Servo and controlled over bluethooth by dabble. The boat is made of foam.
 
 * The Blue boat
+The discribtion of the follow site is used to make the boat.
+
+https://www.rcpano.net/2020/08/20/how-to-make-fast-rc-boat-diy-basic-single-motor-rc-boat/
 
 
 * GIT  https://github.com/gedonder/blueboat
@@ -18,7 +18,7 @@ git remote add origin git@github.com:gedonder/blueboat.git
 git push -u origin main
 
 #+begin_src 
-  git add .
+git add .
 git commit -m "commit"
 git remote add origin git@github.com:gedonder/blueboat.git
 git push -u origin main
@@ -40,6 +40,8 @@ Servo gaat naar 45 of -45
 *** Dabble control -> Print motor aan , motor uit, servo val
  
 ** Dabble
+The dabble library is also available on wokwi.
+
 
 * Hardware
 ** ESP32-C3
@@ -49,10 +51,6 @@ https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
 boot pin : voor het uploaden van software
 *** Declaren van een pin
 const int led = D10;
-
-
-
-
 
 
 
