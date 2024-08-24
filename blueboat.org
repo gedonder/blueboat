@@ -1,0 +1,42 @@
+* Short
+This is the story of the little blue boat. The boat has 
+1 Motor
+1 Servo
+Controlled over bluethooth by dabble
+
+* The Blue boat
+
+
+* Software
+** Arduino
+*** Wokwi
+Ontwikkel de software op Wokwi
+https://wokwi.com/dashboard/projects
+
+*** Motor draaien 
+*** Servo draaien
+**** stap 1 dd`
+Servo gaat naar 45 of -45
+2 funties turnLeft en turnRight
+
+*** Dabble control -> Print motor aan , motor uit, servo val
+ 
+** Dabble
+
+* Hardware
+** ESP32-C3
+https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
+
+*** Gebruik
+boot pin : voor het uploaden van software
+*** Declaren van een pin
+
+const int led = D10;
+
+
+
+
+
+
+
+* Linkjes
