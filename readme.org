@@ -8,14 +8,8 @@ https://www.rcpano.net/2020/08/20/how-to-make-fast-rc-boat-diy-basic-single-moto
 
 
 * GIT  https://github.com/gedonder/blueboat
-Here the comments for project registration which i always forget
+Here the comments for project registration which i always forget.
 
-
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:gedonder/blueboat.git
-git push -u origin main
 
 #+begin_src 
 git add .
@@ -40,7 +34,17 @@ Servo gaat naar 45 of -45
 *** Dabble control -> Print motor aan , motor uit, servo val
  
 ** Dabble
-The dabble library is also available on wokwi.
+The dabble library is  available on wokwi. But i was not able to use this propperly. 
+Dabble. is a test file to test the functions to gether with the the dabble app
+
+Steps:
+1. connect esp to the laptop
+1. arduino settings
+1. press the boot button on the esp
+1. Run the software and upload
+1. Press reset button on esp
+1. On iphone in the dabble app connect to the esp
+1. In arduino open serial monitor. Tools
 
 
 * Hardware
