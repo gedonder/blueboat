@@ -35,8 +35,8 @@ Servo gaat naar 45 of -45
  
 ** Dabble
 The dabble library is  available on wokwi. But i was not able to use this propperly. 
-Dabble. is a test file to test the functions to gether with the the dabble app
-
+Dabble.ino is a test file to test the functions to gether with the the dabble app in the gamepad screen. There are multiple modes in the gamepad
+ 
 Steps:
 1. connect esp to the laptop
 1. arduino settings
