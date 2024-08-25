@@ -41,12 +41,14 @@ Dabble.ino is a test file to test the functions to gether with the the dabble ap
 Steps:
 1. connect esp to the laptop
 1. arduino settings XIAO_ESP32 on /dev/cu.usbmodem14101
-1. press the boot button on the esp
+1. press the boot button on the esp or remove usb cable, press boot button, insert usb cable 
 1. Run the software and upload
 1. Press reset button on esp
 1. On iphone in the dabble app connect to the esp
 1. In arduino open serial monitor. Tools
 
+Problems:
+- exit status 2  -> remove usb cable, press boot button, insert usb cable 
 
 * Hardware
 ** ESP32-C3
