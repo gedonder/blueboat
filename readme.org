@@ -39,7 +39,7 @@ Dabble.ino is a test file to test the functions to gether with the the dabble ap
  
 Steps:
 1. connect esp to the laptop
-1. arduino settings
+1. arduino settings XIAO_ESP32 on /dev/cu.usbmodem14101
 1. press the boot button on the esp
 1. Run the software and upload
 1. Press reset button on esp
