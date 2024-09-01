@@ -106,7 +106,7 @@ void loop() {
 
  ---------- 
 
-| Boot | Antenne | Reset |
+| reset | Antenne | boot |
 |   |chip |       |
 
 
