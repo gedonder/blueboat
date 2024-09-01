@@ -7,18 +7,20 @@ Controlled over bluethooth by dabble
 * The Blue boat
 
 
-* GIT  https://github.com/gedonder/blueboat
+* GIT 
+- https://github.com/gedonder/blueboat
 Here the comments for project registration which i always forget
 
-
+#+begin_src 
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:gedonder/blueboat.git
 git push -u origin main
+#+end_src
 
 #+begin_src 
-  git add .
+git add .
 git commit -m "commit"
 git remote add origin git@github.com:gedonder/blueboat.git
 git push -u origin main
@@ -42,8 +44,14 @@ Servo gaat naar 45 of -45
 ** Dabble
 
 * Hardware
+
+ ---------- 
+
+| Boot | Antenne | Reset |
+|   |chip |       |
 ** ESP32-C3
 https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
+[[][]]
 
 *** Gebruik
 boot pin : voor het uploaden van software
@@ -58,4 +66,5 @@ const int led = D10;
 
 * Linkjes
 
-https://github.com/gedonder/blueboat
+- https://github.com/gedonder/blueboat
+- https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
