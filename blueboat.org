@@ -108,6 +108,11 @@ void loop() {
 
 | Boot | Antenne | Reset |
 |   |chip |       |
+
+
+*** Upl0ading arduino software
+- Press boot 
+- insert usb to computer
 ** ESP32-C3
 https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
 [[][]]
