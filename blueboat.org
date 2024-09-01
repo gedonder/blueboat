@@ -24,7 +24,6 @@ git add .
 git commit -m "commit"
 git remote add origin git@github.com:gedonder/blueboat.git
 git push -u origin main
-
 #+end_src
 
 * Software
@@ -38,6 +37,66 @@ https://wokwi.com/dashboard/projects
 **** stap 1 dd`
 Servo gaat naar 45 of -45
 2 funties turnLeft en turnRight
+
+#+begin_src 
+#include <ESP32Servo.h>
+#include <DabbleESP32.h>
+
+
+int servo_value = 0;
+int val;
+const int servopin =1;
+const int potpin =2;
+
+Servo myservo;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  Serial.println("Hello, servo");
+  myservo.attach(servopin); 
+  Dabble.begin("MyEsp32");   
+  //Dabble.begin(115200);     //Enter baudrate of your bluetooth.Connect bluetooth on Bluetooth port present on evive.
+
+}
+
+void servo_turn_value(int v){
+  Serial.print("value: ");
+  Serial.println(v);
+  myservo.write(v);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  delay(10); // this speeds up the simulation
+  val = analogRead(potpin);            // reads the value of the potentiometer (value between 0 and 1023)
+  val = map(val, 0, 1023, 0, 180);     // scale it to use it with the servo (value between 0 and 180)
+ 
+  Dabble.processInput();
+  if (GamePad.isUpPressed())
+  {    Serial.print("Up");
+  }
+
+  if (GamePad.isDownPressed())  {
+    Serial.print("Down");
+  }
+
+  if (GamePad.isLeftPressed())  {
+    Serial.print("Left");
+     servo_turn_value(120);
+  }
+
+  if (GamePad.isRightPressed())  {
+    Serial.print("Right");
+  }
+  Serial.print(val);
+  servo_turn_value(val);
+  delay(100);              // wait for a second
+}
+#+end_src
+
+
+
 
 *** Dabble control -> Print motor aan , motor uit, servo val
  
