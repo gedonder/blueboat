@@ -1,13 +1,13 @@
-* Short
+
+* The Blue boat
+
+** Short
 This is the story of the little blue boat. The boat has 
 1 Motor
 1 Servo
 Controlled over bluethooth by dabble
 
-* The Blue boat
-
-
-* GIT 
+** GIT 
 - https://github.com/gedonder/blueboat
 Here the comments for project registration which i always forget
 
