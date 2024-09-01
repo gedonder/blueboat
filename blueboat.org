@@ -3,7 +3,7 @@
 
 ** Short
 This is the story of the little blue boat. The boat has 1 Motor 1 Servo
-and is controlled over bluethooth by an mobile application called dabble.
+and is controlled over bluethooth by an mobile application called dabble. The hard of the controlling centre is an ESP32_C3 
 
 ** GIT 
 - https://github.com/gedonder/blueboat
